@@ -7,9 +7,13 @@
         <title>{% block title %}{% endblock %}</title>        
         <link rel="stylesheet" href="{% static 'style.css' %}">
     </head>
-    <body>      
+    <body>  
+        <header></header>
+        <main>  
         {% block content %}
         {% endblock %}
-        <script src="{% static 'script.js' %}"></script>       
+        </main> 
+        <footer></footer>
+        <script src="{% static 'script.js' %}"></script>   
     </body>
 </html>
