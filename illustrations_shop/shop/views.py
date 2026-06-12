@@ -21,6 +21,9 @@ def illustrations(request):
 def illustration_packages(request):
     return render(request, 'shop/illustration_packages.html')
 
+def individual_illustrations(request):
+    return render(request, 'shop/individual_illustrations.html')
+
 
 
 
