@@ -15,6 +15,9 @@ def products(request):
 def product(request):
     return render(request, 'shop/product.html')
 
+def illustrations(request):
+    return render(request, 'shop/illustrations.html')
+
 
 
 
