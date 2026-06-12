@@ -18,6 +18,9 @@ def product(request):
 def illustrations(request):
     return render(request, 'shop/illustrations.html')
 
+def illustration_packages(request):
+    return render(request, 'shop/illustration_packages.html')
+
 
 
 
