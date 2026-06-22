@@ -8,3 +8,217 @@
 html {
     font-family: "Arial";
 }
+
+/* Filter button container */
+
+.filter-button-container {    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;    
+}
+
+/* Filter button */
+
+.filter-button {    
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #4C4C4C;
+    border: 2px solid #4C4C4C;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition-property: background;
+    transition-timing-function: ease-in;
+    transition-duration: .3s; 
+}   
+
+.filter-button:hover {
+    background-color: #EFFFFA;
+    cursor: pointer;
+}
+
+.filter-button img {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+/* Illustration page button */
+
+.illustration-button {
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #4C4C4C;
+    border: 2px solid #4C4C4C;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition-property: background;
+    transition-timing-function: ease-in;
+    transition-duration: .3s;
+}
+
+.illustration-button:hover {
+    background-color: #EFFFFA;
+    cursor: pointer;
+}
+
+/* Icon page button */
+
+.icon-button {
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    background-color: #FFFFFF;
+    color: #4C4C4C;
+    border: 2px solid #4C4C4C;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition-property: background;
+    transition-timing-function: ease-in;
+    transition-duration: .3s;
+}
+
+.icon-button:hover {
+    background-color: #EFFFFA;
+    cursor: pointer;
+}
+
+/* Filter */
+
+.filter {
+    display: none;    
+}
+
+.filter-open {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #FFFFFF;
+    width: 92%;
+}
+
+.filter-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FFFFFF;    
+    width: 100%;
+}
+
+.filter-title h3 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+}
+
+.filter-title h3 img {
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
+.filter-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;  
+}
+
+.filter-categories {
+    width: 100%;
+    border: 1px solid #4C4C4C;    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.filter-one {
+    display: flex;
+    flex-direction: column;   
+    gap: 8px;
+    background-color: #E0FFF5;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #4C4C4C;
+    padding: 1rem;
+    transition-property: background;
+    transition-timing-function: ease-in;
+    transition-duration: .3s;
+}
+
+.filter-two {
+    display: flex;
+    flex-direction: column;   
+    gap: 8px;
+    background-color: #E0FFF5;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #4C4C4C;
+    padding: 1rem;
+    transition-property: background;
+    transition-timing-function: ease-in;
+    transition-duration: .3s;
+}
+
+.filter-three {
+    display: flex;
+    flex-direction: column;   
+    gap: 8px;
+    background-color: #E0FFF5;
+    border-style: solid;
+    border-width: 0 0 0 0;
+    border-color: #4C4C4C;
+    padding: 1rem;
+    transition-property: background;
+    transition-timing-function: ease-in;
+    transition-duration: .3s;
+}
+
+.filter-one:hover, .filter-two:hover, .filter-three:hover {   
+    background-color: #F1FFFA;
+}
+
+.filter-one div, .filter-two div, .filter-three div {   
+    font-family: Inter;
+    font-size: 1rem;
+    padding: 0.25rem 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+}
+
+#search_button {
+    width: 100%;
+    padding: 12px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    border: 2px solid #4C4C4C;
+    border-radius: 8px;
+    background-color: #FFEF54;
+    font-size: 1rem;
+    color: #4C4C4C;
+    transition-property: background;
+    transition-timing-function: ease-in;
+    transition-duration: .3s;    
+}
+
+#search_button:hover {
+    background-color: #FFF6A2;
+}
+
+#search_button img {
+    height: 1.25rem;
+    width: 1.25rem;
+}
