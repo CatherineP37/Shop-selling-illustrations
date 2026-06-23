@@ -12,6 +12,12 @@ function openMobileMenu() {
     opened.style.display = "block";
 }
 
+function closeMobileMenu() {
+    mobileMenu.style.display = "none";
+    closed.style.display = "flex";
+    opened.style.display = "none";
+}
+
 function toggleFilter() {
     filter.classList.toggle('filter-open');
 }
