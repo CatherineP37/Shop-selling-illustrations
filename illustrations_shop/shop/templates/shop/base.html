@@ -49,9 +49,46 @@
         {% endblock %}
         </main> 
         <footer>
-            <a></a>
-            <a></a>
-        </footer>
+            <div class="footer-content">
+                <form class="contact-form">
+                <h2>Contact us</h2>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message"></textarea>
+                </div>
+                <button type="submit">Send message</button>
+            </form>
+                <div class="footer-grid">            
+                        <ul>                
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="about.html#questions">FAQ</a></li>
+                        </ul>          
+                        <ul>
+                            <li><a href="products.html">Products</a></li>            
+                            <li><a href="cart.html">Cart</a></li>
+                            <li><a href="legal.html">Terms & conditions</a></li>
+                        </ul>           
+                        <ul>
+                            <li><h3>ILLUSTRATIONS</h3></li>                                           
+                            <li><a href="illustrations.html">All our illustrations</a></li>                             
+                            <li><a href="packages.html">Illustration packages</a></li>
+                            <li><a href="individual_illustrations.html">Individual illustrations</a></li>
+                        </ul>            
+                        <ul>           
+                        <li><h3>ICONS</h3></li>              
+                        <li><a href="icons.html">Icons</a></li>                           
+                        <li><a href="lined_icons.html">Lined icons</a></li>
+                        <li><a href="fill_colour_icons.html">Filled icons</a></li>           
+                    </ul>        
+                </div>           
+                <p class="copyright">Copyright &copy; 2026</p>
+            </div>       
+        </footer>			
         <script src="{% static 'script.js' %}"></script>   
     </body>
 </html>
