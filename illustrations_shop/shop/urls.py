@@ -8,8 +8,9 @@ urlpatterns = [
     path('products/', views.products, name="products"),
     path('product/', views.product, name="product"),
     path('illustrations/', views.illustrations, name="illustrations"),
-    path('illustration_packages/', views.illustration_packages, name="illustration_packages"),
     path('individual_illustrations/', views.individual_illustrations, name="individual_illustrations"),
+    path('illustration_packages/', views.illustration_packages, name="illustration_packages"),    
     path('icons/', views.icons, name="icons"),
+    path('individual_icons/', views.individual_icons, name="individual_icons"),
     path('icon_sets/', views.icon_sets, name="icon_sets"),
 ]
