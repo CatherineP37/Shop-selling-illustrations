@@ -18,17 +18,22 @@ def product(request):
 def illustrations(request):
     return render(request, 'shop/illustrations.html')
 
+def individual_illustrations(request):
+    return render(request, 'shop/individual_illustrations.html')
+
 def illustration_packages(request):
     return render(request, 'shop/illustration_packages.html')
 
-def individual_illustrations(request):
-    return render(request, 'shop/individual_illustrations.html')
+def icons(request):
+    return render(request, 'shop/icons.html')
 
 def icon_sets(request):
     return render(request, 'shop/icon_sets.html')
 
-def icons(request):
-    return render(request, 'shop/icons.html')
+def individual_icons(request):
+    return render(request, 'shop/individual_icons.html')
+
+
 
 
 
