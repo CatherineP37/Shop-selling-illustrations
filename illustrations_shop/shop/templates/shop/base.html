@@ -76,26 +76,26 @@
             </form>
                 <div class="footer-grid">            
                         <ul>                
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
+                            <li><a href="{% url 'home' %}">Home</a></li>
+                            <li><a href="{% url 'About' %}">About</a></li>
                             <li><a href="about.html#questions">FAQ</a></li>
                         </ul>          
                         <ul>
-                            <li><a href="products.html">Products</a></li>            
+                            <li><a href="{% url 'products' %}">Products</a></li>            
                             <li><a href="cart.html">Cart</a></li>
                             <li><a href="legal.html">Terms & conditions</a></li>
                         </ul>           
                         <ul>
                             <li><h3>ILLUSTRATIONS</h3></li>                                           
-                            <li><a href="illustrations.html">All our illustrations</a></li>                             
-                            <li><a href="packages.html">Illustration packages</a></li>
-                            <li><a href="individual_illustrations.html">Individual illustrations</a></li>
+                            <li><a href="{% url 'illustrations' %}">All our illustrations</a></li>                             
+                            <li><a href="{% url 'illustration_packages' %}">Illustration packages</a></li>
+                            <li><a href="{% url 'individual_illustrations' %}">Individual illustrations</a></li>
                         </ul>            
                         <ul>           
                         <li><h3>ICONS</h3></li>              
-                        <li><a href="icons.html">Icons</a></li>                           
-                        <li><a href="lined_icons.html">Lined icons</a></li>
-                        <li><a href="fill_colour_icons.html">Filled icons</a></li>           
+                        <li><a href="{% url 'icons' %}">Icons</a></li>                           
+                        <li><a href="{% url 'icon_sets' %}">Lined icons</a></li>
+                        <li><a href="{% url 'individual_icons' %}">Filled icons</a></li>           
                     </ul>        
                 </div>           
                 <p class="copyright">Copyright &copy; 2026</p>
