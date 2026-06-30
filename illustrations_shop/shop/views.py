@@ -36,6 +36,9 @@ def individual_icons(request):
 def cart(request):
     return render(request, 'shop/cart.html')
 
+def privacy(request):
+    return render(request, 'shop/privacy.html')
+
 
 
 
