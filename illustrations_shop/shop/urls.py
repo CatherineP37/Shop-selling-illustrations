@@ -15,4 +15,5 @@ urlpatterns = [
     path('icon_sets/', views.icon_sets, name="icon_sets"),
     path('cart/', views.cart, name="cart"),
     path('privacy/', views.privacy, name="privacy"),
+    path('conditions/', views.conditions, name="conditions"),
 ]
