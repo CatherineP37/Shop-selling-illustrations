@@ -39,6 +39,9 @@ def cart(request):
 def privacy(request):
     return render(request, 'shop/privacy.html')
 
+def conditions(request):
+    return render(request, 'shop/conditions.html')
+
 
 
 
