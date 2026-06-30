@@ -14,4 +14,5 @@ urlpatterns = [
     path('individual_icons/', views.individual_icons, name="individual_icons"),
     path('icon_sets/', views.icon_sets, name="icon_sets"),
     path('cart/', views.cart, name="cart"),
+    path('privacy/', views.privacy, name="privacy"),
 ]
