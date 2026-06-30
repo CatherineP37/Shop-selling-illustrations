@@ -33,6 +33,9 @@ def icon_sets(request):
 def individual_icons(request):
     return render(request, 'shop/individual_icons.html')
 
+def cart(request):
+    return render(request, 'shop/cart.html')
+
 
 
 
