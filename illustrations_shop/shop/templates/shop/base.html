@@ -36,12 +36,12 @@
             </div>   
         </nav>
         <ul id="mobileMenu" class="mobile-menu">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>                     
-            <li><a href="illustration_packages.html">Illustration packages</a></li>                  
-            <li><a href="individual_illustrations.html">Individual illustrations</a></li>
-            <li><a href="icon_sets.html">Icon sets</a></li>
-            <li><a href="individual_icons.html">Individual icons</a></li>                                                                 
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>                     
+            <li><a href="{% url 'illustration_packages' %}">Illustration packages</a></li>                  
+            <li><a href="{% url 'individual_illustrations' %}">Individual illustrations</a></li>
+            <li><a href="{% url 'icon_sets' %}">Icon sets</a></li>
+            <li><a href="{% url 'individual_icons' %}">Individual icons</a></li>                                                                 
         </ul>
         <header>        
             <div class="header-column-one">
